@@ -1,0 +1,20 @@
+.totail-std{
+    /* position: relative; */
+}
+.tot-std-main{
+    background: rgba(255, 255, 255, 0.61);
+    width: 100%;
+    max-width: 60rem;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 4rem 0rem;
+    color: var(--color-sign);
+    box-shadow: 1px 2px 5px rgba(139, 139, 139, 0.486);
+}
+

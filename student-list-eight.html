@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!--------own--customized--links-including-fontawesome--and---google-fonts--->
+    <title>Gias Uddin Chowdhury Modern Academy</title>
+    <link
+      rel="short icon"
+      href="images/Gias Uddin Chowdhury Modern Academy.png"
+    />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="home-admin.css">
+    <link rel="stylesheet" href="teacher-staffs.css">
+    <link rel="stylesheet" href="employee-list.css">
+    <link rel="stylesheet" href="student-list.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/76bdb58fbc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-----this---is--the--main-nav-bar--section--markup-->
+
+    <nav>
+      <div class="nav-main">
+        <div class="div-logo">
+          <img src="images/Gias Uddin Chowdhury Modern Academy.png" class="logo" alt="">
+        </div>
+      
+        <label for="btn" class="burger-icon">
+          <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" name="" id="btn">
+      
+      <div class="nav-extra">
+        
+        <ul class="nav__primary">
+          <li>
+            <a href="home.html"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li>
+            <label for="btn-1" class="show"><i class="fas fa-eject"></i> Employee +</label>
+            <a href="">Employee</a>
+            <input type="checkbox" id="btn-1">
+            <ul>
+              <li><a href="Employee-list.html"><i class="fas fa-landmark"></i> Employee List</a></li>
+              <li><a href="assign-Employee.html"><i class="fas fa-campground"></i> Assign Employee</a></li>
+            </ul>
+          </li>
+          <li>
+            <label for="btn-2" class="show">Students +</label>
+            <a href="">Students</a>
+            <input type="checkbox" id="btn-2">
+            <ul>
+              <li><a href="student-list.html"><i class="fas fa-user-tag"></i> Student list</a></li>
+              <li><a href="assign-student.html"><i class="fas fa-tshirt"></i> Assign Student</a></li>
+            </ul>
+          </li>
+          <li>
+            <label for="btn-3" class="show">Notice +</label>
+            <a href="">Notice</a>
+            <input type="checkbox" id="btn-3">
+            <ul>
+              <li><a href="upload-notice.html"><i class="fas fa-book-open"></i> Upload Notice</a></li>
+              <li><a href="upload-floating-notice.html"><i class="fas fa-vials"></i> Upload Floating Notice</a></li>
+              <li><a href="notices.html"><i class="fas fa-vials"></i> Notices</a></li>
+            </ul>
+          </li>
+          <li>
+            <label for="btn-4" class="show">Exam +</label>
+            <a href="">Exam</a>
+            <input type="checkbox" id="btn-4">
+            <ul>
+              <li><a href="add-fees.html"><i class="fab fa-glide"></i> Add Fees </a></li>
+              
+            </ul>
+          </li>
+          <li>
+            <label for="btn-5" class="show">Event +</label>
+            <a href="">Event</a>
+            <input type="checkbox" id="btn-5">
+            <ul>
+              <li><a href="event-list.html"><i class="fas fa-chalkboard-teacher"></i> Event list</a></li>
+              <li><a href="event-create.html"><i class="fas fa-briefcase"></i> Event Create</a></li>
+            </ul>
+          </li>
+          <li>
+            <label for="btn-6" class="show">Fees +</label>
+            <a href="">Fees</a>
+            <input type="checkbox" id="btn-6">
+            <ul>
+              <li><a href="month-fees.html"><i class="fas fa-calendar"></i> Month Fees</a></li>
+              <li><a href="admission-fess.html"><i class="fas fa-diagnoses"></i> Admission Fees</a></li>
+              <li><a href="other-fees.html"><i class="fas fa-book"></i> Other Fees</a></li>
+            </ul>
+          </li>
+          <li>
+            <label for="btn-6" class="show">Financial +</label>
+            <a href="">Financial</a>
+            <input type="checkbox" id="btn-6">
+            <ul>
+              <li><a href="statements.html"><i class="fas fa-calendar"></i> Statements</a></li>
+              <li><a href="search-student-payment.html"><i class="fas fa-diagnoses"></i> Search Student Payment </a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Change Password</a>
+          </li>
+          
+        </ul>
+      
+      </div>
+      <div class="nav-extra">
+        <ul>
+          <li>
+            <a class="nav-btn" href="#">Log out</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+      <marquee class="main" behavior="fast" direction="left">
+        <div class="text">
+          <a href="#" class="breaking-news">
+            <p class="bntime">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+              sed animi, maxime quae veritatis omnis vitae aliquam reiciendis!
+            </p>
+          </a>
+          <a href="#" class="breaking-news">
+            <p class="bntime">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+              sed animi, maxime quae veritatis omnis vitae aliquam reiciendis!
+            </p>
+          </a>
+          <a href="#" class="breaking-news">
+            <p class="bntime">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+              sed animi, maxime quae veritatis omnis vitae aliquam reiciendis!
+            </p>
+          </a>
+          <a href="#" class="breaking-news">
+            <p class="bntime">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+              sed animi, maxime quae veritatis omnis vitae aliquam reiciendis!
+            </p>
+          </a>
+        </div>
+      </marquee>
+    </nav>
+
+
+
+     
+
+
+    <section class="testimonials ex-spc">
+        <div class="testi-container">
+          <div class="cam-first-text">
+            <h1>Student'S List Of Eight</h1>
+            <div class="opt-btns">
+                <div class="opt-btns-one">
+                <a class="tec-btn ex-spc" href="student-list.html">Play</a>
+                <a class="tec-btn ex-spc" href="student-list-nursery.html">Nursery</a>
+                <a class="tec-btn ex-spc" href="student-list-one.html">One</a>
+                <a class="tec-btn ex-spc" href="student-list-two.html">Two</a>
+                <a class="tec-btn ex-spc" href="student-list-three.html">Three</a>
+                <a class="tec-btn ex-spc" href="student-list-four.html">Four</a>
+                <a class="tec-btn ex-spc" href="student-list-five.html">Five</a>
+                <a class="tec-btn ex-spc" href="student-list-six.html">Six</a>
+                <a class="tec-btn ex-spc" href="student-list-seven.html">Seven</a>
+                <a class="tec-btn ex-spc" href="student-list-eight.html">Eight</a>
+                </div>
+                
+                <div class="opt-btns-two">
+                
+                <a class="tec-btn ex-spc" href="student-list-9-science.html">9 Science</a>
+                <a class="tec-btn ex-spc" href="student-list-9-commerce.html">9 Commerce</a>
+                <a class="tec-btn ex-spc" href="student-list-9arts.html">9 Arts</a>
+                <a class="tec-btn ex-spc" href="student-list-9-vocational.html">9 Vocational</a>
+                <a class="tec-btn ex-spc" href="student-list-10-science.html">10 Science</a>
+                <a class="tec-btn ex-spc" href="student-list-10-commerce.html">10 Commerce</a>
+                <a class="tec-btn ex-spc" href="student-list-10arts.html">10 Arts</a>
+                <a class="tec-btn ex-spc" href="student-list-10-vocational.html">10 Vocational</a>
+                </div>
+
+            </div>
+          </div>
+  
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <div class="profile">
+                <img src="" class="img-resize" alt="" />
+                <p class="te_sts">Name: Md. Sohel</p>
+                <p class="te_sts"> Current Position: -----</p>
+                <p class="te_sts">ID: 256706</p>
+                <p class="te_sts">Status: Not Clear</p>
+                <br>
+                <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+              </div>
+            </div>
+  
+            <div class="col-md-4 text-center">
+              <div class="profile">
+                <img src="" class="img-resize" alt="" />
+                <p class="te_sts">Name: Md. Shohel Rana</p>
+                <p class="te_sts"> Current Position: --------</p>
+                <p class="te_sts">ID: 256708</p>
+                <p class="te_sts">Status: Not Clear</p>
+                <br>
+                <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+            </div>
+            </div>
+  
+            <div class="col-md-4 text-center">
+              <div class="profile">
+                <img src="" class="img-resize" alt="" />
+                <p class="te_sts">Name: Sarmin Sultana Shila</p>
+                <p class="te_sts"> Current Position: -------</p>
+                <p class="te_sts">ID: 256709</p>
+                <p class="te_sts">Status: Not Clear</p>
+                <br>
+                <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+              </div>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: Nasida Rashid</p>
+                  <p class="te_sts"> Current Position: --------</p>
+                  <p class="te_sts">ID: 256710</p>
+                  <p class="te_sts">Status: Not Clear</p>
+                  <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: Sakera Sultana</p>
+                  <p class="te_sts"> Current Position: -------</p>
+                  <p class="te_sts">ID: 256711</p>
+                  <p class="te_sts">Status: Not CLear</p>
+                  <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: Sanchita Rani</p>
+                  <p class="te_sts"> Current Position: -------</p>
+                  <p class="te_sts">ID: 256712</p>
+                  <p class="te_sts">Status: Not Clear</p>
+                  <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: Nasrin Akter</p>
+                  <p class="te_sts"> Current Position: -------</p>
+                  <p class="te_sts">ID: 256714</p>
+                  <p class="te_sts">Status: Not Clear</p>
+                  <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: Shanti Rani CHowdhury</p>
+                  <p class="te_sts"> Current Position: -------</p>
+                  <p class="te_sts">ID: 256724</p>
+                  <p class="te_sts">Status: Not Clear</p>
+                  <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: Evana Akter</p>
+                  <p class="te_sts"> Current Position: -------</p>
+                  <p class="te_sts">ID: 256716</p>
+                  <p class="te_sts">Status: Not Clear</p>
+                  <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: Sharmin Akter</p>
+                  <p class="te_sts"> Current Position: -------</p>
+                  <p class="te_sts">ID: 256715</p>
+                  <p class="te_sts">Status: Not Clear</p>
+                  <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: Rima Paul</p>
+                  <p class="te_sts"> Current Position: -------</p>
+                  <p class="te_sts">ID: 256748</p>
+                  <p class="te_sts">Status: Not Clear</p>
+                  <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: Ema Sarkar</p>
+                  <p class="te_sts"> Current Position: -------</p>
+                  <p class="te_sts">ID: 256718</p>
+                  <p class="te_sts">Status: Not Clear</p>
+                  <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: Saarah Ferdausi</p>
+                  <p class="te_sts"> Current Position: ------</p>
+                  <p class="te_sts">ID: 256722</p>
+                  <p class="te_sts">Status: Not Clear</p>
+                  <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: Suara Akter</p>
+                  <p class="te_sts"> Current Position: -------</p>
+                  <p class="te_sts">ID: 256720</p>
+                  <p class="te_sts">Status: Not Clear</p>
+                  <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: Sayma Hossain</p>
+                  <p class="te_sts"> Current Position: -------</p>
+                  <p class="te_sts">ID: 256719</p>
+                  <p class="te_sts">Status: Not Clear</p>
+                  <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: Sumi Akter</p>
+                  <p class="te_sts"> Current Position: -------</p>
+                  <p class="te_sts">ID: 256713</p>
+                  <p class="te_sts">Status: Not Clear</p>
+                  <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: 	Rabeya Akter</p>
+                  <p class="te_sts"> Current Position: -------</p>
+                  <p class="te_sts">ID: 256725</p>
+                  <p class="te_sts">Status: Not Clear</p>
+                  
+                    <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: 	Chandan Kumar Shaha</p>
+                  <p class="te_sts"> Current Position: -------</p>
+                  <p class="te_sts">ID: 256742</p>
+                  <p class="te_sts">Status: Not Clear</p>
+                    <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: 	Sohel Ahmed</p>
+                  <p class="te_sts"> Current Position: -------</p>
+                  <p class="te_sts">ID: 236183</p>
+                  <p class="te_sts">Status: Not Clear</p>
+                    <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: 	Abdullah Al- Mamun</p>
+                  <p class="te_sts"> Current Position: -------</p>
+                  <p class="te_sts">ID: 256745</p>
+                  <p class="te_sts">Status: Not Clear</p>
+                  
+                    <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: 	Abu Nayeem Syddique</p>
+                  <p class="te_sts"> Current Position: -------</p>
+                  <p class="te_sts">ID: 256741</p>
+                  <p class="te_sts">Status: Not Clear</p>
+                    <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: 	Abul Kalam Azad</p>
+                  <p class="te_sts"> Current Position: -------</p>
+                  <p class="te_sts">ID: 256744</p>
+                  <p class="te_sts">Status: Not Clear</p>
+                  
+                    <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: Md. Abu Jafour Akon</p>
+                  <p class="te_sts"> Current Position: --------</p>
+                  <p class="te_sts">ID: 256743</p>
+                  <p class="te_sts">Status: Not Clear</p>
+                    <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: 	Nazrul Islam</p>
+                  <p class="te_sts"> Current Position: -------</p>
+                  <p class="te_sts">ID: 256747</p>
+                  <p class="te_sts">Status: Not Clear</p>
+                  
+                    <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center">
+                <div class="profile">
+                  <img src="" class="img-resize" alt="" />
+                  <p class="te_sts">Name: Md. Meherab Hossen</p>
+                  <p class="te_sts"> Current Position: -------</p>
+                  <p class="te_sts">ID: 256750	</p>
+                  <p class="te_sts">Status: Not Clear</p>
+                  
+                    <br>
+                  <a class="tec-btn" href="">Details</a>
+                <a class="tec-btn" href="">Payment breakdown</a>
+                </div>
+              </div>
+
+              
+
+
+          </div>
+        </div>
+      </section>
+
+
+
+  
+      
+    
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  </body>
+</html>

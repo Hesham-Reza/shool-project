@@ -1,0 +1,67 @@
+.notices-main{
+    margin: 5rem auto;
+    width: 100%;
+    max-width: 1250px;
+    padding: 8rem 0rem;
+    background: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+.notice-{
+    width: 70%;
+    display: flex;
+    gap: 2rem;
+    margin: 0 auto;
+    box-shadow: 1px 2px 5px -1px rgba(139, 139, 139, 0.486);
+    border-radius: .8rem;
+}
+.pub-dte{
+    background: var(--color-sign);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 1rem;
+    border-top-left-radius: .8rem;
+    border-bottom-left-radius: .8rem;
+}
+.pub-dte p{
+    font-size: 1.6rem;
+    color: var(--color-white);
+    font-weight: 700;
+    line-height: 2.4rem;
+
+}
+.pub-dte .big-{
+    font-size: 2.5rem;
+    padding-top: .5rem;
+}
+.notif-des{
+    margin-top: 1.5rem;
+    align-items: baseline;
+}
+.notif-des a{
+    color: var(--color-sign);
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+.notif-des p{
+    font-size: 1.5rem;
+}
+.btns{
+    margin: 2rem auto;
+    display: flex;
+    gap: 3rem;
+}
+.btns a{
+    background: var(--color-sign);
+    color: var(--color-white);
+    padding: .8rem 1rem;
+    border-radius: .5rem;
+}
+.btns a:hover{
+    background: rgb(40, 97, 40);
+    text-decoration: none;
+}
